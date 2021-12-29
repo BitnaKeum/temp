@@ -21,7 +21,7 @@ pipeline {
                 echo "Lets start Journey!!"
 
                 git url: 'https://github.com/BitnaKeum/temp.git',
-                    branch: 'master',
+                    branch: 'main',
                     credentialsId: 'jenkins'
             }
 
