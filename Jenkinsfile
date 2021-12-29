@@ -18,7 +18,7 @@ pipeline {
             agent any
 
             steps {
-                echo "Lets start Journey!! ENV: ${ENV}"
+                echo "Lets start Journey!!"
 
                 git url: 'https://github.com/BitnaKeum/temp.git',
                     branch: 'master',
